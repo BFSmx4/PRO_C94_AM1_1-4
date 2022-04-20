@@ -30,7 +30,7 @@ export default class HomeScreen extends Component {
                     <TouchableOpacity style={styles.routeCard} onPress={() =>
                         this.props.navigation.navigate("IssLocation")
                     }>
-                        <Text style={styles.routeText}>Ubicación de la EEI</Text>
+                        <Text style={styles.routeText}>Localización de la EEI</Text>
                         <Text style={styles.knowMore}>{"Más información --->"}</Text>
                         <Text style={styles.bgDigit}>1</Text>
                         <Image source={require("../assets/iss_icon.png")} style={styles.iconImage}></Image>
